@@ -1,51 +1,10 @@
-21:02:06 **** Incremental Build of configuration Debug for project LAB3ffff ****
+21:04:13 **** Incremental Build of configuration Debug for project LAB3ffff ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-In file included from ../Core/Src/main.c:25:
-../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
-   51 | uint8_t index;
-      |         ^~~~~
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:104:3: warning: implicit declaration of function 'initializeArrays_for_Button' [-Wimplicit-function-declaration]
-  104 |   initializeArrays_for_Button();
-      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-../Core/Src/main.c:108:4: warning: implicit declaration of function 'fsm_manual_run' [-Wimplicit-function-declaration]
-  108 |    fsm_manual_run();
-      |    ^~~~~~~~~~~~~~
-In file included from ../Core/Src/main.c:25:
-At top level:
-../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
-   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
-      |                 ^~~~~~~~~~~~~~~~~~~~~~~
-../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
-   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
-      |                ^~~~~~~~~~~~~~~~~~~~
-../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
-   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
-      |                      ^~~~~~~~~~~~~~~~~~~~~
-../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
-   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
-      |                      ^~~~~~~~~~~~~~~~~~~~~
-../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
-   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
-      |                      ^~~~~~~~~~~~
-arm-none-eabi-g++ -o "LAB3ffff.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\finallab3\LAB3ffff\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB3ffff.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
-Finished building target: LAB3ffff.elf
- 
 arm-none-eabi-size   LAB3ffff.elf 
-arm-none-eabi-objdump -h -S  LAB3ffff.elf  > "LAB3ffff.list"
-arm-none-eabi-objcopy  -O ihex  LAB3ffff.elf  "LAB3ffff.hex"
    text	   data	    bss	    dec	    hex	filename
   11836	     40	   1840	  13716	   3594	LAB3ffff.elf
-arm-none-eabi-objcopy  -O binary  LAB3ffff.elf  "LAB3ffff.bin"
 Finished building: default.size.stdout
  
-Finished building: LAB3ffff.hex
-Finished building: LAB3ffff.bin
- 
- 
-Finished building: LAB3ffff.list
- 
 
-21:02:07 Build Finished. 0 errors, 8 warnings. (took 486ms)
+21:04:13 Build Finished. 0 errors, 0 warnings. (took 182ms)
 

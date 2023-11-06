@@ -361,3 +361,10 @@ Finished building: LAB3ffff.bin
  
 Finished building: LAB3ffff.list
  
+21:04:13 **** Incremental Build of configuration Debug for project LAB3ffff ****
+make -j16 all 
+arm-none-eabi-size   LAB3ffff.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11836	     40	   1840	  13716	   3594	LAB3ffff.elf
+Finished building: default.size.stdout
+ 

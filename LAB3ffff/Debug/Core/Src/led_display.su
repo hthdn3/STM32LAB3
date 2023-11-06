@@ -1,0 +1,7 @@
+led_display.c:10:6:updateClockBuffer	16	static
+led_display.c:21:6:SCAN1	16	static
+led_display.c:76:6:SCAN	16	static
+led_display.c:175:6:update7SEG	16	static
+led_display.c:209:6:reset_buffer	4	static
+led_display.c:210:6:SEVled_run	16	static
+led_display.c:220:6:SEVled_run1	16	static

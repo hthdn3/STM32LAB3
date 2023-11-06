@@ -1,0 +1,363 @@
+21:00:12 **** Build of configuration Debug for project LAB3ffff ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c6tx.d" -MT"Core/Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c6tx.o" "../Core/Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc "../Core/Src/fsm_automatic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_automatic.d" -MT"Core/Src/fsm_automatic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_automatic.o"
+arm-none-eabi-gcc "../Core/Src/fsm_manual.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_manual.d" -MT"Core/Src/fsm_manual.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_manual.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+In file included from ../Core/Inc/fsm_manual.h:12,
+                 from ../Core/Src/fsm_manual.c:8:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+In file included from ../Core/Inc/fsm_automatic.h:10,
+                 from ../Core/Src/fsm_automatic.c:8:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+In file included from ../Core/Src/global.c:7:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/fsm_manual.c: In function 'fsm_manual_run':
+../Core/Src/fsm_automatic.c: In function 'fsm_automatic_run':
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+../Core/Src/fsm_manual.c:20:6: error: 'timer4_flag' undeclared (first use in this function)
+   20 |   if(timer4_flag == 1){
+      |      ^~~~~~~~~~~
+../Core/Src/fsm_manual.c:20:6: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/fsm_automatic.c:16:5: error: 'timer2_flag' undeclared (first use in this function)
+   16 |  if(timer2_flag == 1){
+      |     ^~~~~~~~~~~
+../Core/Src/fsm_automatic.c:16:5: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/fsm_manual.c:21:6: warning: implicit declaration of function 'setTimer4' [-Wimplicit-function-declaration]
+   21 |      setTimer4(500);
+      |      ^~~~~~~~~
+../Core/Src/fsm_automatic.c:18:3: warning: implicit declaration of function 'setTimer2' [-Wimplicit-function-declaration]
+   18 |   setTimer2(15);
+      |   ^~~~~~~~~
+../Core/Src/fsm_automatic.c:33:9: warning: implicit declaration of function 'setTimer1' [-Wimplicit-function-declaration]
+   33 |         setTimer1(y*100);
+      |         ^~~~~~~~~
+../Core/Src/fsm_automatic.c:35:9: error: 'timer3_flag' undeclared (first use in this function)
+   35 |         timer3_flag = 1;
+      |         ^~~~~~~~~~~
+../Core/Src/fsm_manual.c:23:9: warning: implicit declaration of function 'isButtonPressed' [-Wimplicit-function-declaration]
+   23 |      if(isButtonPressed(0) == 1){
+      |         ^~~~~~~~~~~~~~~
+In file included from ../Core/Inc/fsm_manual.h:12,
+                 from ../Core/Src/fsm_manual.c:8:
+At top level:
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+../Core/Src/fsm_automatic.c:36:12: warning: implicit declaration of function 'isButtonPressed' [-Wimplicit-function-declaration]
+   36 |         if(isButtonPressed(0)== 1){
+      |            ^~~~~~~~~~~~~~~
+../Core/Src/fsm_automatic.c:45:7: error: 'timer1_flag' undeclared (first use in this function)
+   45 |   if (timer1_flag == 1){
+      |       ^~~~~~~~~~~
+In file included from ../Core/Inc/fsm_automatic.h:10,
+                 from ../Core/Src/fsm_automatic.c:8:
+At top level:
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:55: Core/Src/fsm_automatic.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:55: Core/Src/fsm_manual.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+21:00:47 **** Incremental Build of configuration Debug for project LAB3ffff ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/fsm_automatic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_automatic.d" -MT"Core/Src/fsm_automatic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_automatic.o"
+arm-none-eabi-gcc "../Core/Src/fsm_manual.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_manual.d" -MT"Core/Src/fsm_manual.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_manual.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/input_reading.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/input_reading.d" -MT"Core/Src/input_reading.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/input_reading.o"
+arm-none-eabi-gcc "../Core/Src/led_display.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/led_display.d" -MT"Core/Src/led_display.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/led_display.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/software_timer.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/software_timer.d" -MT"Core/Src/software_timer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/software_timer.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../Core/Src/traffic_light.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/traffic_light.d" -MT"Core/Src/traffic_light.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/traffic_light.o"
+In file included from ../Core/Inc/fsm_automatic.h:10,
+                 from ../Core/Src/fsm_automatic.c:8:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+In file included from ../Core/Inc/fsm_manual.h:12,
+                 from ../Core/Src/fsm_manual.c:8:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+In file included from ../Core/Src/global.c:7:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+In file included from ../Core/Inc/input_reading.h:11,
+                 from ../Core/Src/input_reading.c:9:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+../Core/Src/fsm_automatic.c: In function 'fsm_automatic_run':
+../Core/Src/fsm_automatic.c:36:12: warning: implicit declaration of function 'isButtonPressed' [-Wimplicit-function-declaration]
+   36 |         if(isButtonPressed(0)== 1){
+      |            ^~~~~~~~~~~~~~~
+In file included from ../Core/Inc/fsm_automatic.h:10,
+                 from ../Core/Src/fsm_automatic.c:8:
+At top level:
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/fsm_manual.c: In function 'fsm_manual_run':
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+../Core/Src/fsm_manual.c:23:9: warning: implicit declaration of function 'isButtonPressed' [-Wimplicit-function-declaration]
+   23 |      if(isButtonPressed(0) == 1){
+      |         ^~~~~~~~~~~~~~~
+In file included from ../Core/Inc/fsm_manual.h:12,
+                 from ../Core/Src/fsm_manual.c:8:
+At top level:
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/led_display.h:12,
+                 from ../Core/Src/led_display.c:7:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/led_display.c: In function 'updateClockBuffer':
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+../Core/Src/led_display.c:10:6: warning: type of 'a' defaults to 'int' [-Wimplicit-int]
+   10 | void updateClockBuffer(a,b){
+      |      ^~~~~~~~~~~~~~~~~
+../Core/Src/led_display.c:10:6: warning: type of 'b' defaults to 'int' [-Wimplicit-int]
+In file included from ../Core/Inc/led_display.h:12,
+                 from ../Core/Src/led_display.c:7:
+At top level:
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+In file included from ../Core/Inc/traffic_light.h:11,
+                 from ../Core/Src/traffic_light.c:9:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+arm-none-eabi-g++ -o "LAB3ffff.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\finallab3\LAB3ffff\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB3ffff.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: LAB3ffff.elf
+ 
+arm-none-eabi-size   LAB3ffff.elf 
+arm-none-eabi-objdump -h -S  LAB3ffff.elf  > "LAB3ffff.list"
+arm-none-eabi-objcopy  -O binary  LAB3ffff.elf  "LAB3ffff.bin"
+   text	   data	    bss	    dec	    hex	filename
+   6724	     20	   1644	   8388	   20c4	LAB3ffff.elf
+Finished building: default.size.stdout
+ 
+Finished building: LAB3ffff.bin
+ 
+Finished building: LAB3ffff.list
+ 
+21:00:51 **** Incremental Build of configuration Debug for project LAB3ffff ****
+make -j16 all 
+arm-none-eabi-size   LAB3ffff.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6724	     20	   1644	   8388	   20c4	LAB3ffff.elf
+Finished building: default.size.stdout
+ 
+21:01:31 **** Incremental Build of configuration Debug for project LAB3ffff ****
+make -j16 all 
+arm-none-eabi-g++ -o "LAB3ffff.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\finallab3\LAB3ffff\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB3ffff.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: LAB3ffff.elf
+ 
+arm-none-eabi-size   LAB3ffff.elf 
+arm-none-eabi-objdump -h -S  LAB3ffff.elf  > "LAB3ffff.list"
+arm-none-eabi-objcopy  -O ihex  LAB3ffff.elf  "LAB3ffff.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6724	     20	   1644	   8388	   20c4	LAB3ffff.elf
+arm-none-eabi-objcopy  -O binary  LAB3ffff.elf  "LAB3ffff.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LAB3ffff.hex
+Finished building: LAB3ffff.bin
+ 
+Finished building: LAB3ffff.list
+ 
+ 
+21:02:06 **** Incremental Build of configuration Debug for project LAB3ffff ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:25:
+../Core/Inc/global.h:51:9: warning: built-in function 'index' declared as non-function [-Wbuiltin-declaration-mismatch]
+   51 | uint8_t index;
+      |         ^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:104:3: warning: implicit declaration of function 'initializeArrays_for_Button' [-Wimplicit-function-declaration]
+  104 |   initializeArrays_for_Button();
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:108:4: warning: implicit declaration of function 'fsm_manual_run' [-Wimplicit-function-declaration]
+  108 |    fsm_manual_run();
+      |    ^~~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:25:
+At top level:
+../Core/Inc/global.h:60:17: warning: 'counterForButtonPress1s' defined but not used [-Wunused-variable]
+   60 | static uint16_t counterForButtonPress1s[NO_OF_BUTTONS];
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:58:16: warning: 'flagForButtonPress1s' defined but not used [-Wunused-variable]
+   58 | static uint8_t flagForButtonPress1s[NO_OF_BUTTONS];
+      |                ^~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:56:22: warning: 'debounceButtonBuffer2' defined but not used [-Wunused-variable]
+   56 | static GPIO_PinState debounceButtonBuffer2[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:55:22: warning: 'debounceButtonBuffer1' defined but not used [-Wunused-variable]
+   55 | static GPIO_PinState debounceButtonBuffer1[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+../Core/Inc/global.h:53:22: warning: 'buttonBuffer' defined but not used [-Wunused-variable]
+   53 | static GPIO_PinState buttonBuffer[NO_OF_BUTTONS];
+      |                      ^~~~~~~~~~~~
+arm-none-eabi-g++ -o "LAB3ffff.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32CubeIDE_1.7.0\finallab3\LAB3ffff\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB3ffff.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: LAB3ffff.elf
+ 
+arm-none-eabi-size   LAB3ffff.elf 
+arm-none-eabi-objdump -h -S  LAB3ffff.elf  > "LAB3ffff.list"
+arm-none-eabi-objcopy  -O ihex  LAB3ffff.elf  "LAB3ffff.hex"
+   text	   data	    bss	    dec	    hex	filename
+  11836	     40	   1840	  13716	   3594	LAB3ffff.elf
+arm-none-eabi-objcopy  -O binary  LAB3ffff.elf  "LAB3ffff.bin"
+Finished building: default.size.stdout
+ 
+Finished building: LAB3ffff.hex
+Finished building: LAB3ffff.bin
+ 
+ 
+Finished building: LAB3ffff.list
+ 
